@@ -177,9 +177,9 @@ header .header-content {
      border: 6px solid black; 
      background:lightgray;
      -webkit-transform: rotate(45deg);
-     -moz-transform: rotate(45deg);
-     -ms-transform: rotate(45deg);
-     -o-transform: rotate(45deg);
+     -moz-transform:  rotate(45deg);
+     -ms-transform:  rotate(45deg);
+     -o-transform:  rotate(45deg);
      transform: rotate(45deg);
      color: black;
      margin-bottom: 30px;

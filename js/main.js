@@ -37,7 +37,7 @@ $(".hider").click(function(){
     }
   });
     //texto de programming
-    $(window).scroll(function() {
+  $(window).scroll(function() {
     if ($(document).scrollTop() > 700 && $(document).scrollTop() < 1100 ) {
       $("#text-program").addClass("change-program"); //ra contiene p cambian de color section 2
     } else {
@@ -49,7 +49,7 @@ $(".hider").click(function(){
     if ($(document).scrollTop()>1600) {
       $("#proyects").css("color", "black").show();
     }else{
-      $("#proyects").Hide();
+      $("#proyects").hide();
 
     }
    
@@ -57,17 +57,19 @@ $(".hider").click(function(){
 
  //circle-proyects
  $(window).scroll(function(){
-    if ($(document).scrollTop()>1600) {
+    if ($(document).scrollTop()>1400) {
       $("#circle-proyects").slideDown();
-    }if($(document).scrollTop()<1700){
-       $("#circle-proyects").Hide();
+    }if($(document).scrollTop()<1400){
+       $("#circle-proyects").hide();
     }
    
   });
   //section contact rombos cambian 
+  	var height = $('body').height();
 
     $(window).scroll(function(){
-    if ($(document).scrollTop()>2360) {
+    if ($(document).scrollTop() > (height * 0.83) ) {
+    	console.log('....... ' + height * 0.83);
       $(".figure-rombo,#figure-rombo2").addClass("transf-rombo");
     }else{
       $(".figure-rombo,#figure-rombo2").removeClass("transf-rombo");
@@ -76,14 +78,9 @@ $(".hider").click(function(){
   });
 
 //section proyectos
-  $(window).scroll(function(){
-    if ($(document).scrollTop()>1100 && $(document).scrollTop() < 1300) {
-      $("#pp").css("background-color", "green");
-    }
-    else{
-      $("#pp").css("background-color", "blue");
-    }
-  });
+  
+
+
 
 
 });  
