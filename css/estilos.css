@@ -1,0 +1,302 @@
+
+*{
+        font-family: 'Brandon Grotesque W01', 'Century Gothic';
+}
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #17A6ED;/*aqui letra de nav/*/
+   
+}
+.navbar-default .nav li:focus{
+	background-color: red;/*color de li*/
+	
+}
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #FA917D;/*fondo de nav a */
+}
+
+.sin{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+
+header {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    color:black;
+   background-image: url(../img/mishel.png);
+    cursor:default;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 670px;
+}
+
+header .header-content {
+    position: relative;
+    padding-top:350px;/*El tamano de la imagen */
+    text-align: center;/*Posicion del texto */  /*cambiar tamanio en mixin/*/
+    text-transform: uppercase;
+
+}
+.color-header{
+    background-color: #036F73;
+}
+.mish{
+
+    font-family: 'Lobster';
+    color:black;
+    font-size:150px;
+    color: #FA917D;
+
+}
+.showback{
+    text-shadow: 2px 2px black;
+}
+
+/* .bloquePub:hover {color: red; transform:rotate(90deg);} /*/
+
+/*text-hove{r texto mishel  */
+   
+
+
+
+#line-hor{
+  background-color: red;
+  height: 50px;
+  margin-left: 50%;
+  width: 10px;
+}
+/*section uno */
+
+.section1{
+    background-color: #DEDEF4; /*21B4F4/67839B/4E64A2/DAB9A3*/
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.triangle{
+	width: 0; 
+     height: 0; 
+     border-left: 100px solid #f0ad4e; /*anch0/*/
+     border-top: 50px solid transparent;
+     border-bottom: 50px solid transparent;
+}
+#titulo{
+    font-weight: 600;
+}
+.learning{  /*texto de habilidades*/
+	font-size: 2em;
+	font-weight: 600;
+}
+.learning2{  /*texto de conocimentos cambio con hover*/
+	font-size: 2em;
+	font-weight: 600;
+	color: #f0ad4e;
+}
+.learning3{  /*texto de habilidades cambio con hover*/
+    font-size: 2em;
+    font-weight: 600;
+    color: #d9534f;
+}
+.ribbon {   /*banderas*/
+    width: 0px;
+    height: 120px;
+    border-left: 50px solid #f0ad4e;
+    border-right: 50px solid #d9534f;
+    border-bottom: 35px solid transparent;
+    display: inline-block;
+}
+.brother{
+	display: inline-block;
+	padding-left: 16px;
+}
+.sobre-mi-text{
+    font-style: oblique;
+    font-weight: bolder;
+}
+/*seccion 2 */
+.lenguajes{
+    width: 25%;
+    height: 7px;
+    background-color: black;
+}
+.section2{  /*contact*/
+	background-color: #EF504F;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	height: auto;
+}
+.texProgram{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.change-program{
+    color: #17A6ED;
+    text-transform: uppercase;
+}
+/*section habilidades de programacion /*/
+.section-programation{
+    background-color: #84CDC2;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.box-carr{
+    background-color: #036F73;
+    height: auto;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.rombo {
+     width: 100px; 
+     height: 100px; 
+     border: 5px solid white; 
+     background-color: black;
+     -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+     transform: rotate(0deg);
+     margin-bottom: 50px;
+     box-sizing: border-box;
+     padding: 10px;
+     color: white;
+     text-align: center;
+}
+.transf-rombo { /*cambio de rombo/*/
+     width: 100px; 
+     height: 100px; 
+     border: 6px solid black; 
+     background:lightgray;
+     -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+     transform: rotate(45deg);
+     color: black;
+     margin-bottom: 30px;
+     margin-top: 20px;
+
+
+}
+.transf-rombo2 { /*cambio de rombo/*/
+     width: 20%; 
+     height: 100px; 
+     border: 6px solid black; 
+     background:lightgray;
+     color: black;
+     margin-bottom: 30px;
+     margin-top: 20px;
+     display: inline-block;
+
+
+}
+
+.rombo:hover{
+    background-color: #67839B;
+    opacity: 0.5;
+}
+
+/*cambio con scroll el texto  en la seccion de programacion */
+.change1 {
+    color: lightgray;
+}
+
+
+/*section 3 */
+.espacio-proyect{
+   
+    padding-bottom: 55px;
+}
+
+.color-code{
+    background-color: #F18C79; 
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+.picture{
+     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+   background-image: url(../img/codigo.jpg);
+    cursor:default;
+    padding-top: 100px;
+    height: 310px;
+    font-weight: bolder;
+}
+
+#proyects{  /*texto de proyectos/*/
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+
+.m{
+    width: 100%;
+}
+/*section 4/*/
+.section4{
+background-color: #036F73;
+padding-bottom: 100px;
+padding-top: 100px;
+height: auto;
+}
+.quien-soy{
+    color: #FCE5CC;
+    padding-bottom: 15px;
+
+}
+.name{
+    font-style: oblique;
+    text-align: center;
+    color:#FCE5CC ;
+    font-size: 15px;
+}
+/*propiedades */
+.text-center{
+	text-align: center;
+}
+div.ex {
+    background-color: #e5eecc;
+    padding: 7px;
+    border: solid 1px #c3c3c3;
+}
+.separation{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.separation-padd{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+/*cambio con scroll */
+
+.rr{
+    font-size:40px;
+    height: 20px;
+
+}
+.mm{
+    background:#AB784D;height:50px;width:50px;
+}
+.text-white{
+    color: white;
+}
+
+.tamano-img{
+    height:120px;
+    width: 200px;
+}
