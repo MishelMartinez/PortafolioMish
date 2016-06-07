@@ -4,11 +4,15 @@ $("#two").hide();
 $("#proyects").hide();//texto proyects 
    $("#circle-proyects").hide();
 //cambio de color en habilidades
-  $("#panel").hover(function(){
-        $("#flip2").addClass("learning2");
+  $("#change-quien").hover(function(){
+        $(this).addClass("learning3");
     });
    $("#panel").hover(function(){
         $("#flip3").addClass("learning3");
+    });
+    $("#desarrollador").hover(function(){
+        $("#desarrollador").removeClass("padd-img");
+         $("#desarrollador").addClass("padd-img-2");
     });
 
    $("#panel2").click(function(){
@@ -16,16 +20,19 @@ $("#proyects").hide();//texto proyects
 
     });
 
-   // bandera de conocmientos
-   $("#one").click(function(){
-        $("#two").slideToggle("slow");
-
+   //texto movimiento left
+   $(document).ready(function(){
+    $("#text-left-mov").click(function(){
+        $(this).animate({left: '400px'});
     });
+});
 /*
 $(".hider").click(function(){
         $(this).parents(".ex").hide("slow");
     });
+
 /*/
+
 
 //scroll cambio de letra en recta
     $(window).scroll(function() {
