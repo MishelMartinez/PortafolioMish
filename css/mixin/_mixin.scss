@@ -1,0 +1,95 @@
+/*Tamano letras*/
+@mixin estilos($color,$tamano,$weight){
+	color:$color;
+	font-size:$tamano;
+	font-weight: $weight;
+}
+@mixin estilo($color,$tamano){
+	color:$color;
+	font-size: $tamano;
+}
+
+/*
+.text-contact{
+	@include estilos(white,3em,600);
+}
+/*/
+/* section one */
+.text-mish{
+	@include estilos(#1CD3B0,140px,680);
+	position: relative;
+	font-family: 'Lobster';
+
+	@media only screen and (max-width: 640px) {
+   
+     font-family: 'Lobster';
+    font-size:56px;
+    color:#1CD3B0;
+    font-weight:bolder;
+
+    }
+    /* texto de lilian mishel */
+
+}
+/* section one */
+#Hi{
+	@include estilo(#16A297,70px);
+	padding-top:20px;
+}
+#text-introduction{
+	font-family:'Raleway';
+	@include estilos(#16A297,20px,400);
+	font-style: italic;
+	padding-top:20px;
+}
+#text-woman{
+	padding-top:20px;
+}
+.learning{
+	@include estilos(white,15px,400);
+}
+
+/*SECTION PROYECTOS */
+
+.name-portafolio{
+	@include estilos(#FE7341,34px,600);
+	font-family:'Raleway';
+	text-align:center;
+}
+
+.frase-proyect{
+	font-family:'Raleway';
+	@include estilos(#F1B304,20px,bolder);
+	font-style: italic;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-transform:lowercase;
+}
+.texto-footer{
+	@include estilo(white,15px);
+}
+
+/*seccion contactos */
+#text-contact{
+	@include estilo(#16A297,70px);
+font-family: 'Lobster';
+	text-transform:uppercase;
+	@media only screen and (max-width: 640px) {
+   
+     font-family: 'Lobster';
+    font-size:46px;
+    color:#1CD3B0;
+    font-weight:bolder;
+
+    }
+}
+.icon-contact{
+	@include estilo(white,40px);
+	padding-left:40%;
+	@media only screen and (max-width: 640px) {
+   padding-left:20%;
+    font-size:26px;
+
+
+    }
+}
