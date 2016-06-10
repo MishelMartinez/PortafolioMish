@@ -27,24 +27,50 @@
 
 }
 .box-contact{
-    background-color:#1FD1AE;
+    background-color:#1CD3B0;
     height: auto;
     width: 100%;
         padding-top: 25px;
         padding-bottom: 5px;
     margin-bottom: 30px;
+    cursor:pointer;
+    border-radius: 70%;
+
+
 }
 .box-inside{
-    background-color:#FE7341;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color:white;
+    padding-top: 40px;
+    padding-bottom: 50px;
     width: 60%;
     margin-left: 20%;
     height: 50%;
+    border-radius: 80%;
+
 }
 .marg-bottom{
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+}
+.marg-top{
+    margin-top: 40px;
+}
+.marg-top-20{
+    margin-top: 20px;
 }
 .padd-top-20{
     margin-top: 70px;
+}
+.box-contact:hover{
+    background-color:#FE7341;
+}
+.img-traingle{
+    height: 400px !important;
+    width: 70%;
+}
+
+.rotate{
+    transform: rotate(10deg);
+}
+.a-sin{
+    text-decoration: none;
 }

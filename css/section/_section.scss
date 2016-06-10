@@ -32,6 +32,7 @@
       }
 
 }
+
 /*section dos */
 .two{
     background-color: #F2F2F2;
@@ -85,4 +86,16 @@
 background-color:  #F1F1F1;
     @extend .padding;
     padding-top: 100px;
+}
+/* KEANE?*/
+.keane-section{
+    background-color: #64B717;
+    height: auto;
+}
+/* SECCION CONTACTO*/
+
+.section-curric{
+    background-color:#E4F4F3;
+    @extend .padding;
+    padding-top: 80px;
 }

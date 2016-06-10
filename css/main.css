@@ -36,6 +36,15 @@
 #text-woman {
   padding-top: 20px; }
 
+.text-interes p {
+  color: #FE7340;
+  font-size: 20px;
+  font-weight: bolder; }
+.text-interes ol li {
+  color: #16A297;
+  font-size: 15px;
+  font-weight: 400; }
+
 .learning {
   color: white;
   font-size: 15px;
@@ -43,15 +52,14 @@
 
 /*SECTION PROYECTOS */
 .name-portafolio {
-  color: #FE7341;
+  color: #2C3E50;
   font-size: 34px;
   font-weight: 600;
-  font-family: 'Raleway';
-  text-align: center; }
+  font-family: 'Raleway'; }
 
 .frase-proyect {
   font-family: 'Raleway';
-  color: #F1B304;
+  color: #2C3E50;
   font-size: 20px;
   font-weight: bolder;
   font-style: italic;
@@ -65,7 +73,7 @@
 
 /*seccion contactos */
 #text-contact {
-  color: #16A297;
+  color: #1CD3B0;
   font-size: 70px;
   font-family: 'Lobster';
   text-transform: uppercase; }
@@ -77,15 +85,77 @@
       font-weight: bolder; } }
 
 .icon-contact {
-  color: white;
-  font-size: 40px;
+  color: black;
+  font-size: 70px;
   padding-left: 40%; }
   @media only screen and (max-width: 640px) {
     .icon-contact {
       padding-left: 20%;
       font-size: 26px; } }
 
-.padding, .two, .three, .footer, .section-proyectos, .section-contact {
+.text-contact {
+  font-family: 'Raleway';
+  color: #16A297;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 40px;
+  text-align: center; }
+
+.text-contact:hover {
+  font-family: 'Raleway';
+  color: #FE7341;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 40px;
+  text-align: center; }
+
+.responsive-imagen {
+  height: 730px;
+  width: 730px;
+  padding-left: 30px; }
+  @media only screen and (max-width: 968px) {
+    .responsive-imagen {
+      height: 400px;
+      width: 470px;
+      transform: rotate(5deg); } }
+
+.icon-contac {
+  color: black;
+  font-size: 100px;
+  font-weight: 680;
+  position: relative; }
+
+/* SECCION CURRICULUM /*/
+.img-mish-curric {
+  padding-left: 200px; }
+  @media only screen and (max-width: 640px) {
+    .img-mish-curric {
+      padding-left: 0px; } }
+
+.icon-curricu {
+  color: black;
+  font-size: 40px;
+  font-weight: 680;
+  position: relative; }
+
+.text-introduction-curricu {
+  font-family: 'Raleway';
+  color: #2C3E50;
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: italic; }
+
+.title-curricul {
+  font-family: 'Raleway';
+  color: #16A297;
+  font-size: 40px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center; }
+
+.padding, .two, .three, .footer, .section-proyectos, .section-contact, .section-curric {
   padding-top: 40px;
   padding-bottom: 40px; }
 
@@ -108,26 +178,48 @@
   border: 4px solid #1FD1AE; }
 
 .box-contact {
-  background-color: #1FD1AE;
+  background-color: #1CD3B0;
   height: auto;
   width: 100%;
   padding-top: 25px;
   padding-bottom: 5px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  cursor: pointer;
+  border-radius: 70%; }
 
 .box-inside {
-  background-color: #FE7341;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 50px;
   width: 60%;
   margin-left: 20%;
-  height: 50%; }
+  height: 50%;
+  border-radius: 80%; }
 
 .marg-bottom {
-  margin-bottom: 80px; }
+  margin-bottom: 40px; }
+
+.marg-top {
+  margin-top: 40px; }
+
+.marg-top-20 {
+  margin-top: 20px; }
 
 .padd-top-20 {
   margin-top: 70px; }
+
+.box-contact:hover {
+  background-color: #FE7341; }
+
+.img-traingle {
+  height: 400px !important;
+  width: 70%; }
+
+.rotate {
+  transform: rotate(10deg); }
+
+.a-sin {
+  text-decoration: none; }
 
 /*texto LILIAN MISHEL/*/
 /*section one */
@@ -196,5 +288,15 @@
 .section-contact {
   background-color: #F1F1F1;
   padding-top: 100px; }
+
+/* KEANE?*/
+.keane-section {
+  background-color: #64B717;
+  height: auto; }
+
+/* SECCION CONTACTO*/
+.section-curric {
+  background-color: #E4F4F3;
+  padding-top: 80px; }
 
 /*# sourceMappingURL=main.css.map */

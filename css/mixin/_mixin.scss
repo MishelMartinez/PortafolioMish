@@ -45,6 +45,14 @@
 #text-woman{
 	padding-top:20px;
 }
+.text-interes{ 
+	p{ 
+		@include estilos(#FE7340,20px,bolder);
+	}
+	ol li{
+		@include estilos(#16A297,15px,400);
+	}
+}
 .learning{
 	@include estilos(white,15px,400);
 }
@@ -52,14 +60,14 @@
 /*SECTION PROYECTOS */
 
 .name-portafolio{
-	@include estilos(#FE7341,34px,600);
+	@include estilos(#2C3E50,34px,600);
 	font-family:'Raleway';
-	text-align:center;
+	
 }
 
 .frase-proyect{
 	font-family:'Raleway';
-	@include estilos(#F1B304,20px,bolder);
+	@include estilos(#2C3E50,20px,bolder);
 	font-style: italic;
 	padding-top:20px;
 	padding-bottom:20px;
@@ -71,7 +79,7 @@
 
 /*seccion contactos */
 #text-contact{
-	@include estilo(#16A297,70px);
+	@include estilo(#1CD3B0,70px);
 font-family: 'Lobster';
 	text-transform:uppercase;
 	@media only screen and (max-width: 640px) {
@@ -84,7 +92,7 @@ font-family: 'Lobster';
     }
 }
 .icon-contact{
-	@include estilo(white,40px);
+	@include estilo(black,70px);
 	padding-left:40%;
 	@media only screen and (max-width: 640px) {
    padding-left:20%;
@@ -92,4 +100,65 @@ font-family: 'Lobster';
 
 
     }
+}
+.text-contact{
+	font-family:'Raleway';
+	@include estilos(#16A297,20px,400);
+	font-style: italic;
+	padding-bottom:40px;
+	text-align:center;
+}
+.text-contact:hover{
+	font-family:'Raleway';
+	@include estilos(#FE7341,20px,400);
+	font-style: italic;
+	padding-bottom:40px;
+	text-align:center;
+}
+.responsive-imagen{
+	  height: 730px;
+     width: 730px;
+     padding-left: 30px;
+     
+
+
+@media only screen and (max-width: 968px) {
+   height: 400px;
+     width: 470px;
+     transform: rotate(5deg);
+
+
+
+    }
+}
+
+.icon-contac{
+	@include estilos(black,100px,680);
+	position:relative;
+}
+
+/* SECCION CURRICULUM /*/
+.img-mish-curric{
+	padding-left:200px;
+	@media only screen and (max-width: 640px) {
+   padding-left:0px;
+    }
+}
+
+.icon-curricu{
+	@include estilos(black,40px,680);
+	position:relative;
+
+}
+.text-introduction-curricu{
+	font-family:'Raleway';
+	@include estilos(#2C3E50,20px,bolder);
+	font-style: italic;
+
+}
+.title-curricul{
+	font-family:'Raleway';
+	@include estilos(#16A297,40px,bolder);
+	font-style: italic;
+	text-align:center;
 }

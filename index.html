@@ -11,16 +11,14 @@
 	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/fuentes.css">
 	<!--bootstrap-->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/navar.css">
 	<!--animacion de texto-->
 	<link rel="stylesheet" type="text/css" href="animate/animate.css">
-	
-	<script>
-        new WOW().init();
-    </script>
+
 </head>
 <body>
 <header>
@@ -50,7 +48,7 @@
             <a href="proyectos.html">PROYECTOS</a>
           </li>
           <li>
-            <a  href="#section3">CURRICULUM</a>
+            <a  href="curriculum.html">CURRICULUM</a>
           </li>
           <li>
             <a  href="contacto.html">CONTACTO</a>
@@ -68,7 +66,7 @@
 		<div class="row">
 			<div class="header-content ">
         <div class="col-lg-12 col-xs-12">
-          <span class="wow fadeIn text-mish"data-wow-duration="2s">Lilian Mishel</span>
+          <span class="wow fadeIn text-mish"data-wow-duration="2s" id="name-mish">Lilian Mishel</span>
    
 
         </div>
@@ -84,11 +82,27 @@
 			<div class="col-lg-1">
 				
 			</div>
-			<div class="col-lg-6 col-xs-12 col-md-8">
+			<div class="col-lg-6 col-xs-12 col-md-8"><!--introduccion-->
 				<h1 id="Hi">Hola,</h1>
-				<span id="text-introduction">Soy Mishel  programadora y desarrolladora de front-end creativa,autodidactica,iniciando una nueva aventura en el sector web.Me gusta crear código limpio y reutilizable</span>
-				<p id="text-woman">Estoy dispuesta a sumergirse en los proyectos más desafiantes y tengo un rechazo total a la pereza y al engaño.Me dedico  a estudiar Ingeniería en Sistemas Computacionales por las mañanas, entregada aprender lo que más pueda relacionado con la programación y los TIC.Soy una mujer comprometida que abraza los valores de la honestidad, dedicación, dignidad, haciendo gala de mi capacidad de unir a las personas y en defensa de los valores tradicionales.</p>
-			</div>
+				<span id="text-introduction">Soy Mishel  programadora y desarrolladora de front-end y back-end creativa,autodidactica,iniciando una nueva aventura en el sector web.Me gusta crear código limpio y reutilizable</span>
+				<div class="text-interes">
+					<p >Mis intereses son:</p> 
+					<ol>
+						<li>
+							Front-end Development 
+						</li>
+						<li>
+							Back-end Development
+						</li>
+						<li>
+							SEO / Data Analytics
+						</li>
+						<li> QA/Testing
+						</li>
+					</ol>
+				</div>
+
+			</div><!--col-->
 			<div class="col-lg-4 col-xs-12 col-md-8 padding">
 				<img src="img/mish1.PNG" class="img-circle img-responsive wow bounce">
 			</div>
@@ -99,10 +113,10 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12 col-xs-12 text-center">
-				<h2>Conocimientos</h2>
+				
 			</div>
-			<div class="col-lg-8 col-xs-12 separation-learng-2">
-				<img src="img/carrusel/design.png" class="img-responsive">
+			<div class="col-lg-8 col-xs-12 separation-learng-2 ">
+				<img src="img/carrusel/design.PNG" class="img-responsive responsive-imagen" id="imagen-habi" >
 			</div>
 			<div class="col-lg-4 separation-learng">
 				<div class="row">
@@ -161,5 +175,9 @@
 </footer>
 
 </body>
-
+<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </html>
