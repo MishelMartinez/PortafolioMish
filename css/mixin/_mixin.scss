@@ -226,3 +226,19 @@ li {
 #keane-4{
 	background-color:#1A1017;
 }
+.name-mishel{
+	@include estilos(#16A297,40px,bold);
+	position: relative;
+	font-family: 'Raleway';
+
+	@media only screen and (max-width: 640px) {
+   
+     font-family: 'Lobster';
+    font-size:26px;
+    color:#1CD3B0;
+    font-weight:bolder;
+
+    }
+    /* texto de lilian mishel */
+
+}
