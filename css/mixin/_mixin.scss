@@ -50,7 +50,7 @@
 		@include estilos(#FE7340,20px,bolder);
 	}
 	ol li{
-		@include estilos(#16A297,15px,400);
+		@include estilos(black,15px,400);
 	}
 }
 .learning{
@@ -152,7 +152,7 @@ font-family: 'Lobster';
 }
 .text-introduction-curricu{
 	font-family:'Raleway';
-	@include estilos(#2C3E50,20px,bolder);
+	@include estilos(#2C3E50,15px,bolder);
 	font-style: italic;
 
 }
@@ -161,4 +161,68 @@ font-family: 'Lobster';
 	@include estilos(#16A297,40px,bolder);
 	font-style: italic;
 	text-align:center;
+}
+/*SECCION CURRICUKUM */
+.lista-mide{
+li {
+  list-style-type: upper-roman;
+
+}
+}
+
+.list-apren{
+li {
+   list-style-type: square;
+
+}
+
+    background: #00BDAE;
+    padding: 10px;
+   
+}
+.introduction-mide{
+	@include estilos(#2C3E50,18px,500);
+}
+.activ-mide{
+	@include estilos(#2C3E50,15px,500);
+}
+.import-mide{
+	@include estilos(#2C3E50,17px,600);
+	padding-top:15px;
+
+}
+
+/* SECCION KEANE */
+.title-proyect{
+	color:white;
+	font-family:'Lobster', sans-serif;
+	font-size:140px;
+	@media only screen and (max-width: 968px) {
+   	font-size:50px;
+
+
+
+    }
+}
+#cont-kean{
+	@include estilos(#2C3E50,35px,500);
+}
+#cont-keane{
+	@include estilo(white,35px);
+	font-style:italic;
+	@media only screen and (max-width: 968px) {
+@include estilo(white,25px);
+    }
+}
+#keane-1{
+	background-color:#04A6BD;
+}
+#keane-2{
+	background-color:#D8BE67;
+}
+#keane-3{
+	background-color:#F08030;
+}
+#keane-4{
+	background-color:#1A1017;
 }

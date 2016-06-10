@@ -50,6 +50,7 @@
     background-color:#FE7340;
     width: 100%;
     padding: 5px;
+    
 }
 .tamano-icon{
     font-size: 25px;
@@ -88,7 +89,7 @@ background-color:  #F1F1F1;
     padding-top: 100px;
 }
 /* KEANE?*/
-.keane-section{
+.keane{
     background-color: #64B717;
     height: auto;
 }
@@ -96,6 +97,6 @@ background-color:  #F1F1F1;
 
 .section-curric{
     background-color:#E4F4F3;
-    @extend .padding;
     padding-top: 80px;
 }
+

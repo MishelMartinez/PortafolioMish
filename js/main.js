@@ -7,10 +7,11 @@ $(document).ready(function(){
    $("#text-info-contact").hide();
    $("#text-musas").hide();
    $("#text-keane").hide();
+   $("#exper-lab").hide();
        // $("#pp").animate({padding-left: '140px'});
    $(window).scroll(function(){  //texto introductorio
     if ($(document).scrollTop()>450) {
-      $("#text-introduction").slideDown(500);
+      $("#text-introduction").slideDown(700);
     }
     else{
     	$("#text-introduction").hide();
@@ -47,13 +48,23 @@ $(document).ready(function(){
 //texto Contacto
    $(window).scroll(function(){
     if ($(document).scrollTop()>5) {
-      $("#text-musas").show(500);
+      $("#text-musas").show(700);
     }
    
   });
    $(window).scroll(function(){
     if ($(document).scrollTop()>200) {
       $("#text-keane").show(500);
+    }
+   
+  });
+
+   // SECCION CURRICULUM
+   $(window).scroll(function(){
+    if ($(document).scrollTop()>240) {
+      $("#exper-lab").show(500);
+    }else{
+    	 $("#exper-lab").hide(500);
     }
    
   });
